@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.inner{max-width: 1600px;margin: 0 auto;}
+
+/* mv section */
+#main_visual .mv{position: relative; }
+#main_visual .mv .swiper-wrapper .swiper-slide{position: relative;}
+#main_visual .mv .swiper-wrapper .swiper-slide dl{color: #fff; position: absolute; top: 720px; left: 100px; }
+#main_visual .mv .swiper-wrapper .swiper-slide dt{font-size: 2.5rem;}
+#main_visual .mv .swiper-wrapper .swiper-slide dd{font-size: 8.0rem; font-weight: 700;}
+#main_visual .mv .swiper-wrapper .swiper-slide .Viga {text-transform: capitalize;   font-family: "Viga", sans-serif; font-weight: 300;}
+
+.swiper-pagination{color: #fff; position: absolute; top: 670px; left: -834px;}
+.progress-box{ width: 170px; height: 50px; z-index: 11;}
+.autoplay-progress{ width: 150px; background-color: rgba(0,0,0,0.5); height: 3px; position: absolute; left: 150px; top: 683px ; z-index: 10;}
+.autoplay-progress svg{--progress: 0; position: absolute; z-index: 10; width: 100%; stroke: #fff; stroke-width: 3px; fill: none; stroke-dashoffset: calc(100 * (1 - var(--progress))); stroke-dasharray: 100;}
+.swiper-button-prev{color : #fff; position: absolute; top: 685px; left: 320px; width: 10px; height: 10px; }
+.swiper-button-next{color: #fff; position: absolute; top: 682px; left: 350px;}
+.pause-button{position: absolute; top: 665px; left: 380px; ; color: #fff; z-index: 10; font-size: 2.5rem;}
+.play-button{position: absolute; top: 665px; left: 380px; color: #fff; z-index: 10; font-size: 2.5rem;}
+
+/* intro section */
+#intro{width: 100%; height:800px; padding: 210px 0 230px 0;} 
+#intro .inner{text-align: center; height: 360px;}
+#intro .inner h3{font-size:5.0rem;}
+#intro .inner .intro2-1{height: 48px; margin-top: 210px;}
+
+/* bussiness */
+#bussiness {padding: 160px 0 160px 0; height: 1000px;}
+#bussiness .inner .bussiness_title{ margin-bottom:100px;}
+#bussiness .inner .bussiness_title h3{font-size: 5.0rem;}
+#bussiness .inner .bussiness_body ul{display: flex;}
+#bussiness .inner .bussiness_body ul li{display: flex;}
+#bussiness .inner .bussiness_body ul li img{width: 323px; height: 480px; border-radius: 30px; overflow: hidden;}
